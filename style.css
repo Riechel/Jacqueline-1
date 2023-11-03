@@ -111,6 +111,10 @@ a {
 }
 
 @media only screen and (max-width: 600px) { 
+    background{ url(imagens/mirelly01.jpg) no-repeat;
+}
+    
+    
     .container {
         grid-template-areas: "l" "c" "r" "m" "f" "p";
         grid-template-columns: 1fr;
